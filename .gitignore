@@ -1,0 +1,25 @@
+# ===== Virtual Environment =====
+venv/
+
+# ===== Environment Variables =====
+.env.local
+.env.prod
+
+# ===== Datasets and Notebooks =====
+training_notebooks/
+data/
+*.csv
+*.xlsx
+*.ipynb
+
+# ===== Python Cache =====
+__pycache__/
+*.pyc
+
+# ===== IDE / Editor Files =====
+.vscode/
+.idea/
+
+# ===== Test Files =====
+pytest_cache/
+.coverage
